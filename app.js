@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   console.log(`Request received at: ${new Date()}`);
-  res.end('Fixed a bug');
+  res.end('More bugs - must get more testing');
 });
 
 console.log('Server starting…');
